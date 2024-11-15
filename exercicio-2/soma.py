@@ -12,6 +12,6 @@ def soma (a, b):
 
 resultadoFinal = soma(valor1, valor2)
 
-print(resultadoFinal)
+print("X =",resultadoFinal)
 
 
