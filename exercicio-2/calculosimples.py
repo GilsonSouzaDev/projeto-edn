@@ -15,7 +15,7 @@ while True:
     entrada = input("Digite dois números inteiros e um float, separados por espaço: ")
     codigo, numeroPecas, valorPeca = map(float, entrada.split())
     codigo = int(codigo)
-    numeroPecas = int(numeroPecas)   
+    numeroPecas = int(numeroPecas)
 
     venda = Venda(codigo, numeroPecas, valorPeca)
 
