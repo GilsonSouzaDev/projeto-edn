@@ -1,9 +1,10 @@
 def calcular_fatorial(n):
-    """ Função para calculo de fatorial de numero inteiro"""
+    """Função para calculo de fatorial de numero inteiro"""
     fatorial = 1
     for i in range(2, n + 1):
         fatorial *= i
     return fatorial
+
 def main():
     try:
         N = int(input("Digite um numero inteiro entre 1 e 20: "))
@@ -13,4 +14,5 @@ def main():
         print(f"O fatorial de {N} é: {resultado}")
     except ValueError as ve:
         print(f"Erro: {ve}")
+
 main()
