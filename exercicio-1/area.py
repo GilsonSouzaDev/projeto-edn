@@ -1,17 +1,14 @@
-PI = 3.14159
-raio = 0.0
-areaFinal = 0.0
-
-def area(pi, raio):
-    area = 0.0
-    area = pi * raio
+def area(raio):
+    PI = 3.14159
+    area = PI * raio
     return area
 
-raio = float(input("Insira o valor da raio: "))
+def raio():
+    raio = float(input("Insira o valor da raio: "))
+    raio = round(raio, 2)
+    raio = pow(raio, 2)
+    return raio
 
-raio = round(raio, 2)
 
-raio = pow(raio, 2)
-
-print("A:", round(area(PI, raio),4))
+print("A:", round(area(raio()),4))
 
