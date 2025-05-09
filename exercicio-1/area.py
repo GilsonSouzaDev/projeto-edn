@@ -9,6 +9,6 @@ def raio():
     raio = pow(raio, 2)
     return raio
 
-
+//printando o resultado usando round
 print("A:", round(area(raio()),4))
 
